@@ -1,0 +1,75 @@
+#NotificationContainer {
+    display: block;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 10000;
+
+    background-color: rgba(0,0,0,0.8);
+}
+
+#NotificationMessage {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto; 
+
+    text-align: center;
+}
+
+#AppIcon {
+    display: inline-block;
+    position: relative;
+    width: 51px;
+    height: 51px;
+
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#AppIcon img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+#AppMessage {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+#AppMessage h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
